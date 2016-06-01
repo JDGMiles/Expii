@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 srand (time(NULL));
-int n=100;
-int m=100000;
+int n=15000;
+int m=15000;
 int X[n];
 bool done=1;
 int count=0;
@@ -24,7 +24,7 @@ for (int i=0; i<n; i++){
 }
 }
 
-cout << count << " out of " << m;
+cout << count << " out of " << m <<" = " << 100*float(count)/m <<"%.";
 
 /*
 for (int i=0; i<n; i++){
